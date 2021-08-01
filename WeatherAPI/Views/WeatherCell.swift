@@ -35,13 +35,11 @@ class WeatherCell: UITableViewCell {
         weatherImageView.leftAnchor.constraint(equalTo: leftAnchor, constant: 10).isActive = true
         weatherImageView.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 10).isActive = true
         weatherImageView.widthAnchor.constraint(equalToConstant: 50).isActive = true
-        //weatherImageView.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
         weatherLabel.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
         weatherLabel.leftAnchor.constraint(equalTo: weatherImageView.rightAnchor, constant: 15).isActive = true
-        //weatherLabel.bottomAnchor.constraint(equalTo: bottomAnchor, constant: 10)
         weatherLabel.widthAnchor.constraint(equalToConstant: 100).isActive = true
-        //weatherLabel.heightAnchor.constraint(equalToConstant: 50).isActive = true
+        
         
         
         
