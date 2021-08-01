@@ -17,6 +17,7 @@
 		AD30264C26B6B250009619D4 /* WeatherTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30264B26B6B250009619D4 /* WeatherTable.swift */; };
 		AD30264E26B6B9F7009619D4 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30264D26B6B9F7009619D4 /* WeatherCell.swift */; };
 		AD30265026B6C548009619D4 /* CurrentWeatherInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30264F26B6C548009619D4 /* CurrentWeatherInfo.swift */; };
+		AD30265226B6D6AB009619D4 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD30265126B6D6AB009619D4 /* CurrentWeather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		AD30264B26B6B250009619D4 /* WeatherTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTable.swift; sourceTree = "<group>"; };
 		AD30264D26B6B9F7009619D4 /* WeatherCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
 		AD30264F26B6C548009619D4 /* CurrentWeatherInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherInfo.swift; sourceTree = "<group>"; };
+		AD30265126B6D6AB009619D4 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		AD30264626B6B1D5009619D4 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				AD30265126B6D6AB009619D4 /* CurrentWeather.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				AD30264C26B6B250009619D4 /* WeatherTable.swift in Sources */,
 				AD30263726B6B1B5009619D4 /* ViewController.swift in Sources */,
+				AD30265226B6D6AB009619D4 /* CurrentWeather.swift in Sources */,
 				AD30264E26B6B9F7009619D4 /* WeatherCell.swift in Sources */,
 				AD30263326B6B1B5009619D4 /* AppDelegate.swift in Sources */,
 				AD30265026B6C548009619D4 /* CurrentWeatherInfo.swift in Sources */,
